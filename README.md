@@ -8,6 +8,3 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/yoshitaka-k/digimon-up-eawse)
 
 Deno の勉強がてら、なんか作ってみようと思って デジモンUP の 絵合わせメモ でも作成なぅ
-
-## License
-[Apache-2.0](https://github.com/yoshitaka-k/digimon-up-eawse/blob/main/LICENSE)
