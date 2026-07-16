@@ -1,3 +1,13 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const cardAllDelete = document.getElementById("card-all-delete");
+  if (!cardAllDelete) return;
+  cardAllDelete.addEventListener("click", () => {
+    const field = document.getElementById("field");
+    if (!field) return;
+    field.innerHTML = "";
+  });
+});
+
 // カードをコピーしてフィールド上に自由配置する
 document.addEventListener("DOMContentLoaded", () => {
   const field = document.getElementById("field");

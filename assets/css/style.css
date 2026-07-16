@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 1rem;
+}
+
 .container {
   max-width: 800px;
   margin: auto;
@@ -9,11 +17,17 @@
   align-items: stretch;
 }
 
+.content-header {
+  margin-bottom: 8px;
+}
+
 .content-field {
   position: relative;
   flex: 1;
-  min-height: 640px;
-  border: 2px dashed #999;
+  min-width: 660px;
+  min-height: 840px;
+  border: 2px solid var(--color-border);
+  border-radius: 8px;
   background: #f7f7f7;
   overflow: hidden;
   touch-action: none;
@@ -27,16 +41,17 @@
 .content-card {
   display: block;
   width: 100px;
-  margin: 4px;
-  cursor: grab;
+  cursor: pointer;
   user-select: none;
   -webkit-user-drag: none;
+  border-radius: 8px;
 }
 
 .content-card.placed {
   position: absolute;
   margin: 0;
   z-index: 1;
+  cursor: grab;
 }
 
 .content-card.dragging {
