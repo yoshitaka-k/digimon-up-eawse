@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 870px;
   margin: auto;
 }
 
@@ -19,6 +19,10 @@ body {
 
 .content-header {
   margin-bottom: 8px;
+
+  p {
+    margin-bottom: 4px;
+  }
 }
 
 .content-field {
