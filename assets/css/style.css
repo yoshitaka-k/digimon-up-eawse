@@ -1,0 +1,46 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  gap: 8px;
+  align-items: stretch;
+}
+
+.content-field {
+  position: relative;
+  flex: 1;
+  min-height: 640px;
+  border: 2px dashed #999;
+  background: #f7f7f7;
+  overflow: hidden;
+  touch-action: none;
+}
+
+.content-cards {
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.content-card {
+  display: block;
+  width: 100px;
+  margin: 4px;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.content-card.placed {
+  position: absolute;
+  margin: 0;
+  z-index: 1;
+}
+
+.content-card.dragging {
+  cursor: grabbing;
+  z-index: 2;
+  opacity: 0.9;
+}
