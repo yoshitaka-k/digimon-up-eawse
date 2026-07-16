@@ -8,15 +8,6 @@ const DIST_DIR = join(PROJECT_ROOT, "dist");
 /** handler と揃えた静的書き出しルート */
 const ROUTES = [
   "/",
-  "/shop",
-  "/item",
-  "/scroll",
-  "/special",
-  "/hermit",
-  "/wepon",
-  "/armor",
-  "/accessory",
-  "/enemy",
 ] as const;
 
 function distPathForRoute(pathname: string): string {
