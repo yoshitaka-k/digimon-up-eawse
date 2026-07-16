@@ -1,6 +1,6 @@
 {
   "name": "digimon-eawase",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "tasks": {
     "dev": "deno run --watch --allow-net main.ts",
     "build": "deno run -A scripts/build-static.ts"
