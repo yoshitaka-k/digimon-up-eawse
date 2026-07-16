@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 870px;
+  max-width: 720px;
   margin: auto;
 }
 
@@ -28,7 +28,7 @@ body {
 .content-field {
   position: relative;
   flex: 1;
-  min-width: 660px;
+  min-width: 480px;
   min-height: 840px;
   border: 2px solid var(--color-border);
   border-radius: 8px;
